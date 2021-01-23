@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androidweatherml.WeatherActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_275sdp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/about_text_info1"
+            android:text="@string/about_text_info1"
+            android:textSize="@dimen/_13sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorAbout" />
+
+        <TextView
+            android:id="@+id/about_text_info2"
+            android:text="@string/about_text_info2"
+            android:textSize="@dimen/_13sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_text_info1"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorAbout" />
+
+        <TextView
+            android:id="@+id/about_text_data"
+            android:text="@string/openWeatherMapCredit"
+            android:textSize="@dimen/_13sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_text_info2"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorAbout" />
+
+        <TextView
+            android:id="@+id/about_text_iconCredit"
+            android:text="@string/iconCredit"
+            android:textSize="@dimen/_13sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_text_data"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorAbout" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textSize="18sp"
+            android:textColor="#33bbff"
+            android:id="@+id/action_cancel"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

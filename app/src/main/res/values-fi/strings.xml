@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sää</string>
+    <string name="change_city">Vaihda kaupunki</string>
+    <string name="city_country">Kuopio</string>
+    <string name="date">perjantaina, 14 elokuuta</string>
+    <string name="enter_city">Kaupungin nimi (esim.Kuopio)</string>
+    <string name="humidity">KOSTEUS</string>
+    <string name="humidity_rate">30%</string>
+    <string name="last_updated_text">"Viimeksi päivitetty: "</string>
+    <string name="open_weather_map_app_id">037b9703d46b3ba35cb533029f15576e</string>
+    <string name="pressure">1000 hPa</string>
+    <string name="pressure_text">PAINE</string>
+    <string name="temperature">18°</string>
+    <string name="weather_information">Selkeä</string>
+    <string name="wind">TUULI</string>
+    <string name="wind_speed">3 km/h</string>
+    <string name="about">Tietoja</string>
+    <string name="exit">Poistu</string>
+    <string name="cancel">PERUUTA</string>
+    <string name="close">SULJE</string>
+
+    <string name="about_text_info1">Sovellus säätietojen tarkistamiseen.</string>
+    <string name="about_text_info2">Sovelluksen on kehittänyt Matias Leinonen.</string>
+    <string name="openWeatherMapCredit">Tiedot tarjoaa
+       <a href="http://openweathermap.org/">OpenWeatherMap</a>
+        ,
+        <a href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons -lisenssin alla</a>.
+    </string>
+    <string name="iconCredit">Sääkuvakkeet on tehnyt
+        <a href="https://www.flaticon.com/authors/iconixar/">Iconixar</a>
+        <a href="https://www.flaticon.com/">www.flaticon.com</a>:sta.
+    </string>
+    <string name="exit_confirm">Haluatko poistua sovelluksesta?</string>
+    <string name="yes">Kyllä</string>
+    <string name="default_checkbox_text">Oletuskaupunki käynnistyksen yhteydessä</string>
+    <string name="enter_valid_city">"Anna kelvollinen kaupunki! "</string>
+    <string name="default_city_changed">"Uusi oletuskaupunki: "</string>
+
+</resources>

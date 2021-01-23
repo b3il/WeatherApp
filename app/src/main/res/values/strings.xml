@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="open_weather_map_app_id">037b9703d46b3ba35cb533029f15576e</string>
+    <string name="city_country">Kuopio</string>
+    <string name="date">Friday, 14 August</string>
+    <string name="temperature">18°</string>
+    <string name="weather_information">Clear</string>
+    <string name="wind">WIND</string>
+    <string name="wind_speed">3 km/h</string>
+    <string name="humidity">HUMIDITY</string>
+    <string name="humidity_rate">30%</string>
+    <string name="pressure">1000 hPa</string>
+    <string name="pressure_text">PRESSURE</string>
+    <string name="change_city">Change city</string>
+    <string name="enter_city">City name (ex.Chicago)</string>
+    <string name="last_updated_text">"Last updated: "</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">CANCEL</string>
+    <string name="close">CLOSE</string>
+    
+    <string name="about_text_info1">A basic app for checking the weather.</string>
+    <string name="about_text_info2">Developed by Matias Leinonen.</string>
+    <string name="openWeatherMapCredit">Data is provided by
+       <a href="http://openweathermap.org/">OpenWeatherMap</a>
+        , under the
+        <a href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons -licence</a>.
+    </string>
+    <string name="iconCredit">Weather icons are made by
+        <a href="https://www.flaticon.com/authors/iconixar/">Iconixar</a>
+        from
+        <a href="https://www.flaticon.com/">www.flaticon.com</a>.
+    </string>
+    <string name="exit_confirm">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="default_checkbox_text">Default city on startup</string>
+    <string name="enter_valid_city">Enter a valid city!</string>
+    <string name="default_city_changed">"Default city has been changed to: "</string>
+
+</resources>
