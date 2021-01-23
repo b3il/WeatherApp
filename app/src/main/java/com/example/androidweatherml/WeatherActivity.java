@@ -158,8 +158,9 @@ public class WeatherActivity extends AppCompatActivity implements DialogChangeCi
 
         try {
             //luodaan uusi task ja suoritetaan haku API:sta käyttämällä osoitetta
+            string token = "";
             ExecuteTask task = new ExecuteTask();
-            task.execute("https://api.openweathermap.org/data/2.5/weather?q=" + input + "&APPID=037b9703d46b3ba35cb533029f15576e&units=metric");
+            task.execute("https://api.openweathermap.org/data/2.5/weather?q=" + input + "&APPID=" + token + "&units=metric");
 
         } catch (Exception e) {
             e.printStackTrace();
